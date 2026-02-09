@@ -1,4 +1,4 @@
-This repository contains the code for the paper Guo, Zhou, Qi, Fan (2026) [*Conditional effects of cross-product substitution on systemic risk in multilayer food trade networks5*].
+This repository contains the code for the paper Guo, Zhou, Qi, Fan (2026) [*Conditional effects of cross-product substitution on systemic risk in multilayer food trade networks*].
 
 The function ‘shock_response’ simulates shock response and cascade starting with a change (decline) in production of a particular product in the target country
 
@@ -9,4 +9,7 @@ The script ‘multiNet_simShock_Script’ simulates shock cascades under differe
 The script ‘multiNet_simAnalysis_script’ validates mass balance equations and calculates impacts (consumption deficits) of single/multiple shocks on single country-product, country, product layer and overall network
 
 The input folder contains a list of country information, a list of crop information, as well as data for 2 two-layer networks and 2 three-layer networks.
+
 The network data includes production, reserves, consumption, per capita GDP, and trade data spanning 31 years from 1993 to 2023, along with substitutability correlation matrices (where a value of 1 indicates that the row product can be used to substitute for the column product in that country).
+In the various data for a single year (row), the 171 country data for various products included in the network data name are displayed sequentially.
+
